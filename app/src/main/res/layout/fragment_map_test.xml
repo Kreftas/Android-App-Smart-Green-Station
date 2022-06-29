@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--fragment to display our maps-->
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="119dp"
+        android:layout_height="155dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="315dp"
+        android:layout_marginBottom="-4dp"
+        app:srcCompat="@mipmap/ic_qr_code_2_foreground" />
+    <!--search view to search our location-->
+    <!--    <androidx.appcompat.widget.SearchView-->
+    <!--        android:id="@+id/idSearchView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:background="#BFBFBF"-->
+    <!--        android:elevation="5dp"-->
+    <!--        app:iconifiedByDefault="false"-->
+    <!--        app:queryHint="Search Here" />-->
+
+    <TextView
+        android:id="@+id/progressBar2"
+        android:visibility="gone"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="100dp"
+        android:background="#403C3C"
+        android:drawableBottom="@android:drawable/ic_popup_sync"
+        android:text="@string/connecting"
+        android:textAlignment="center"
+        android:textColor="#EFE8E8"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdgeLength="0dp"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleText"
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/oswald_bold"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="5dp"
+            android:text="@string/station_name"
+            android:textColor="#415bb0"
+            android:textSize="36sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-3dp" />
+
+        <TextView
+            android:id="@+id/runningText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oswald"
+            android:padding="20dp"
+            android:text="running text"
+            android:textSize="19sp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintTop_toBottomOf="@+id/titleText"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="5dp" />
+
+        <LinearLayout
+            android:id="@+id/button_pushme"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round_outline_station_button"
+            android:elevation="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:translationZ="10dp">
+
+            <TextView
+                android:id="@+id/go_back_to_map"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:fontFamily="@font/oswald"
+                android:gravity="center_horizontal"
+                android:text="@string/show_station_on_map"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/current_data"
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/oswald_bold"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/current_data"
+            android:textColor="#415bb0"
+            android:textSize="36sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-3dp" />
+
+        <TextView
+            android:id="@+id/click_for_more_info"
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/oswald"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/click_for_more_info"
+            android:textColor="#415bb0"
+            android:textSize="27sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-3dp" />
+
+        <com.example.sgs_test_2.station.NonScrollableListView
+            android:id="@+id/slider_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp" />
+
+    </LinearLayout>
+</ScrollView>

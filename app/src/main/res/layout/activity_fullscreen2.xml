@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/My_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Widget.Theme.SGS_test_2.NoActionBar.ActionBar.Fullscreen"
+    tools:context=".FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <RelativeLayout
+        android:id="@+id/Relative"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button"
+
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="top|center"
+            android:background="#673AB7"
+            android:text="SKIP"
+            android:textAllCaps="true"
+            android:textColor="@color/white" />
+
+        <WebView
+            android:id="@+id/myWebView"
+            android:layout_width="match_parent"
+            android:layout_height="732dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-1dp"
+
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:scrollbars="none" />
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="11dp"
+        android:layout_height="29dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="@style/Widget.Theme.SGS_test_2.NoActionBar.ButtonBar.Fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/dummy_button"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+
+</FrameLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_draw_open">Abierto</string>
+    <string name="naw_draw_close">Cerrar</string>
+    <string name="title_activity_maps">MapasActividad</string>
+    <string name="testing">Pruebas</string>
+    <string name="about_us">Sobre nosotros</string>
+    <string name="beskrivning">Smart Green Station desarrolla paradas de autobús y aparcamientos de bicicletas interactivos y climáticamente inteligentes, que es al mismo tiempo un lugar de encuentro para oportunidades. SGS quiere hacer de estos lugares un oasis verde donde podamos encontrarnos y descansar un rato. Cargue las baterías - en un doble sentido. Al mismo tiempo que se carga la batería de la bicicleta, las personas obtienen un momento de recuperación. Conectado por supuesto. Siempre listo para el siguiente paso.</string>
+    <string name="mål">Una inversión en Smart Green Station da como resultado una reducción de la producción de electricidad. Con planes a largo plazo para el consumo eléctrico sostenible y el desarrollo climáticamente inteligente. Smart Green Station contribuye a un desarrollo urbano mejor y más sostenible a través de lugares de encuentro ecológicos, donde la conexión y la interacción se encuentran con el descanso y la reflexión. Un estilo de vida más ecológico y confortable.</string>
+    <string name="vinster">Los beneficios para la salud de Smart Green Station son varios. A través de lugares de encuentro más ecológicos, queremos contribuir a mejorar la salud pública y la calidad de vida de las generaciones actuales y futuras. La ganancia financiera con Smart Green Station significa que los municipios reducen sus costos a largo plazo. Por lo tanto, se pueden gastar recursos importantes en otros fines socialmente beneficiosos.</string>
+    <string name="framtiden">Básicamente hay energía limpia (células solares) y por lo tanto se reduce el consumo de electricidad. Ayuda a educar a la gente sobre cuestiones medioambientales. El sistema interactivo de Smart Green Station brinda a las personas una vida más limpia, saludable y entretenida. Los sensores y la IoT (Internet de las cosas) brindan a los municipios mejores y mayores oportunidades para obtener una visión general local de la funcionalidad y las estadísticas.</string>
+    <string name="vad_vi_g_r_och_vad_vi_bidrar_med">Que hacemos y que aportamos</string>
+    <string name="beskrivning_title">Descripción</string>
+    <string name="goal">Objetivo</string>
+    <string name="vinster_title">Gana</string>
+    <string name="framtiden_title">El futuro</string>
+    <string name="our_website">Nuestra página web</string>
+    <string name="follow_us_on_social_media">Síguenos en las redes sociales</string>
+    <string name="map">Mapa</string>
+    <string name="stations">Estaciones</string>
+    <string name="friends">Amigos</string>
+    <string name="settings">Ajustes</string>
+    <string name="EnableNightMode">Habilitar el modo nocturno</string>
+    <string name="NightModeOff">El modo nocturno está desactivado</string>
+    <string name="NightModeOn">El modo nocturno está activado</string>
+    <string name="ChangeMap">Cambiar el tema del mapa</string>
+    <string name="ApplicationSettings">Configuraciones de la aplicación</string>
+    <string name="Alerts">Notificaciones</string>
+    <string name="TurnOffNotifications">Desactivar las notificaciones</string>
+    <string name="NotificationsOff">Notificaciones desactivadas</string>
+    <string name="NotificationsOn">Notificaciones activadas</string>
+    <string name="Profile">Perfil</string>
+    <string name="NameChange">Cambiar nombre</string>
+    <string name="ImageChange">Cambiar imagen</string>
+    <string name="MapThemes">Temas de mapas</string>
+    <string name="language_Select">Cambiar idioma</string>
+    <string name="toggle_flash">Alternar flash</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="scanned_data">Datos escaneados</string>
+    <string name="QR_error">El código QR no es válido, utilice el mapa</string>
+    <string name="QR_error1">Presione OK para volver al Mapa</string>
+    <string name="camera_All_set">ESTAS LISTO</string>
+    <string name="camera_button">APUNTE HACIA EL CÓDIGO QR</string>
+    <string name="camera_button_invalid_code">CÓDIGO QR NO VÁLIDO</string>
+    <string name="camera_button_go_to_station">IR A ESTACION</string>
+    <string name="camera_Scanner_started">Escáner iniciado</string>
+    <string name="camera_Scanner_stopped">Escáner detenido</string>
+    <string name="camera_Scanner_error">Error del escáner</string>
+    <string name="camera_Scanner_station_not_exists">ESTACION NO EXISTE</string>
+    <string name="webpage">Página web</string>
+    <string name="find_us_elsewhere">Encuéntranos en otro lugar</string>
+    <string name="list_of_all_stations">Lista de todas las estaciones</string>
+    <string name="No_Internet1">Asegúrese de que los datos móviles o Wi-Fi estén disponibles</string>
+    <string name="No_Internet2">Presione OK para ir a Configuración</string>
+    <string name="No_Internet3">Conectando ...</string>
+    <string name="current_data">Informacion recolectada</string>
+    <string name="show_station_on_map">Mostrar estación en el mapa</string>
+    <string name="station_name">Nombre de estación</string>
+    <string name="connecting">Conectando</string>
+    <string name="scanqr">Escanear código QR</string>
+
+    <string-array name="SelectLanguage">
+        <item>Inglés</item>
+        <item>Sueco</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="LanguageEntrys">
+        <item>Inglés</item>
+        <item>Sueco</item>
+        <item>Español</item>
+    </string-array>
+    <string name="contact_us">Contacta con nosotros</string>
+    <string name="pm2_5_text">El gráfico muestra la densidad de partículas de menos de 2,5 micrómetros en el aire a</string>
+    <string name="pm10_text">\"El gráfico muestra la densidad de partículas de menos de 10 micrómetros en el aire a\"</string>
+    <string name="light_text">El gráfico muestra la cantidad de luz emitida medida en Lux a</string>
+    <string name="temp_text">El gráfico muestra la temperatura medida en grados Celsius a</string>
+    <string name="watch_video">Ver video</string>
+    <string name="click_to_launch_settings_application">Haga clic para iniciar la configuración</string>
+    <string name="click_for_more_info">Haga clic para obtener más información</string>
+    <string name="our_stations">Nuestras Estaciones</string>
+    <string name="utvecklare">Desarrolladores</string>
+    <string name="omApplikationen">Acerca de la aplicación</string>
+    <string name="No_Connection">Sin conexión</string>
+
+
+</resources>

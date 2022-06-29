@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name" translatable="false">Smart Green Station</string>
+    <string name="nav_draw_open">Open</string>
+    <string name="naw_draw_close">Close</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="testing">Testing</string>
+    <string name="filifjonkan" translatable="false">Filifjonkan</string>
+    <string name="about_us">About Us</string>
+    <string name="beskrivning">Smart Green Station develops interactive and climate-smart bus stops and bicycle parking, which is at the same time a meeting place for opportunities. SGS wants to make these places a green oasis where we can meet and rest for a while. Charge the batteries - in a double sense. At the same time as the bicycle battery is being charged, people get a moment of recovery. Connected of course. Always ready for the next step.</string>
+    <string name="mål">An investment in Smart Green Station results in reduced electricity production. With long-term plans for sustainable electricity consumption and climate-smart development. Smart Green Station contributes to a better and more sustainable urban development through green meeting places - where connection and interaction meet rest and reflection. A greener and more comfortable lifestyle.</string>
+    <string name="vinster">The health benefits of Smart green Station are several. Through greener meeting places, we want to contribute to improving public health and the quality of life for both current and future generations. The financial gain with Smart Green Station means that municipalities reduce their costs in the long term. Important resources can thus be spent on other socially beneficial purposes.</string>
+    <string name="framtiden">There is basically clean energy (solar cells) and thus reduced electricity consumption. It helps to educate people on environmental issues. Smart Green Station\'s interactive system gives people a cleaner, healthier and more entertaining life. Sensors and IoT (Internet of Things) give municipalities better and greater opportunities for local overview of functionality and statistics.</string>
+    <string name="smart_green_n_t_t_t_t_t_t_t_t_t_t_tstation" translatable="false">Smart Green Station</string>
+    <string name="vad_vi_g_r_och_vad_vi_bidrar_med">What we do and what we contribute</string>
+    <string name="beskrivning_title">Description</string>
+    <string name="goal">Goal</string>
+    <string name="vinster_title">Wins</string>
+    <string name="framtiden_title">The Future</string>
+    <string name="our_website">Our Website</string>
+    <string name="temail" translatable="false">\tEmail</string>
+    <string name="instagram" translatable="false">Instagram</string>
+    <string name="tyoutube" translatable="false">\tYouTube</string>
+    <string name="tlinkedin" translatable="false">\tLinkedIn</string>
+    <string name="phone" translatable="false">Phone</string>
+    <string name="adress" translatable="false">Address</string>
+    <string name="email_sgs" translatable="false">\tinfo@smartgreenstation.se</string>
+    <string name="phone_nbr_sgs" translatable="false">\t+46722569321</string>
+    <string name="address_sgs" translatable="false">\tRönnblomsgatan 1, 21216 Malmö</string>
+    <string name="follow_us_on_social_media">Follow us on social media</string>
+    <string name="map">Map</string>
+    <string name="stations">Stations</string>
+    <string name="friends">Friends</string>
+    <string name="settings">Settings</string>
+    <string name="EnableNightMode">Enable night mode</string>
+    <string name="NightModeOff">Night mode is deactivated</string>
+    <string name="NightModeOn">Night mode is activated</string>
+    <string name="ChangeMap">Change map theme</string>
+    <string name="ApplicationSettings">Application Settings</string>
+    <string name="Alerts">Notifications</string>
+    <string name="TurnOffNotifications">Turn off notifications</string>
+    <string name="NotificationsOff">Notifications turned off</string>
+    <string name="NotificationsOn">Notifications turned on</string>
+    <string name="Profile">Profile</string>
+    <string name="NameChange">Change name</string>
+    <string name="ImageChange">Change image</string>
+    <string name="MapThemes">Map themes</string>
+    <string name="title_activity_station_main" translatable="false">StationMain</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="screen_one" translatable="false">Screen one</string>
+    <string name="screen_two" translatable="false">Screen two</string>
+    <string name="screen_three" translatable="false">Screen three</string>
+    <string name="language_Select">Change Language</string>
+    <string name="toggle_flash">Toggle Flash</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanned_data">Scanned Data</string>
+    <string name="QR_error">QR-Code is invalid, please use the Map</string>
+    <string name="QR_error1">Press OK to go back to Map</string>
+    <string name="camera_All_set">YOU ARE ALL SET</string>
+    <string name="camera_button">POINT TOWARDS QR-CODE</string>
+    <string name="camera_button_invalid_code">INVALID QR-CODE</string>
+    <string name="camera_button_go_to_station">GO TO STATION</string>
+    <string name="camera_Scanner_started">Scanner Started</string>
+    <string name="camera_Scanner_stopped">Scanner Stopped</string>
+    <string name="camera_Scanner_error">Scanner Error</string>
+    <string name="camera_Scanner_station_not_exists">STATION DOES NOT EXIST</string>
+    <string name="webpage">Webpage</string>
+    <string name="find_us_elsewhere">Find Us Elsewhere</string>
+    <string name="list_of_all_stations">List Of All Stations</string>
+    <string name="title_activity_fullscreen" translatable="false">FullscreenActivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="title_activity_fullscreen2" translatable="false">FullscreenActivity2</string>
+    <string name="No_Internet1">Please make sure Wifi-or Mobile Data is available</string>
+    <string name="No_Internet2">Press OK to go to Settings</string>
+    <string name="No_Internet3">Connecting...</string>
+    <string name="current_data">Collected Data</string>
+    <string name="show_station_on_map">Show Station On Map</string>
+    <string name="station_name">Station name</string>
+    <string name="connecting">Connecting</string>
+    <string name="scanqr">Scan QR-Code</string>
+    <string name="No_Connection">No Connection</string>
+    <string name="linkedin" translatable="false">Linkedin</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="grabbarnagrus" translatable="false">Jonas Hallböök, Hjalmar Janson, Robin Kollenman, Miljan Mladenovic, Malte Wallander</string>
+    <string name="utvecklare">Developers</string>
+    <string name="our_stations">Our Stations</string>
+    <string name="click_for_more_info">Click for more information</string>
+    <string name="watch_video">Watch video</string>
+    <string name="click_to_launch_settings_application">Click to launch settings</string>
+
+
+    <string-array name="MapThemes">
+        <item>Retro</item>
+        <item>Night</item>
+        <item>Original</item>
+    </string-array>
+    <string-array name="EntryValues">
+        <item>Retro</item>
+        <item>Night</item>
+        <item>Original</item>
+    </string-array>
+    <string-array name="SelectLanguage">
+        <item>English</item>
+        <item>Swedish</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="LanguageEntrys">
+        <item>English</item>
+        <item>Swedish</item>
+        <item>Spanish</item>
+    </string-array>
+    <string name="pm2_5_text">"The graph shows the density of particles less than 2.5 micrometers in the air at"</string>
+    <string name="pm10_text">"The graph shows the density of particles less than 10 micrometers in the air at"</string>
+    <string name="light_text">"The graph shows the amount of light emitted measured in Lux at"</string>
+    <string name="temp_text">"The graph shows the temperature measured in degrees Celsius at"</string>
+    <string name="omApplikationen">About the application</string>
+    <string name="sgs_logo_navbar" translatable="false">SGS_logo_navbar</string>
+
+
+</resources>

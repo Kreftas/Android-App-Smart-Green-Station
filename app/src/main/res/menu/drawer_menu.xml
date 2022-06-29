@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_stations"
+            android:icon="@drawable/ic_stations"
+            android:title="@string/stations" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/qr_code"
+            android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+            android:title="@string/scanqr" />
+
+        <item
+            android:id="@+id/video"
+            android:icon="@drawable/ic_vol_type_tv_dark"
+            android:title="@string/watch_video" />
+
+
+        <item android:title="@string/find_us_elsewhere">
+            <menu>
+                <item
+                    android:id="@+id/nav_webpage"
+                    android:icon="@drawable/ic_webpage"
+                    android:title="@string/webpage" />
+                <item
+                    android:id="@+id/nav_instagram"
+                    android:icon="@drawable/ic_icons8_instagram"
+                    android:title="@string/instagram" />
+                <item
+                    android:id="@+id/nav_linkedin"
+                    android:icon="@drawable/ic_icons_linkedin"
+                    android:title="@string/linkedin" />
+            </menu>
+        </item>
+
+    </group>
+
+
+</menu>

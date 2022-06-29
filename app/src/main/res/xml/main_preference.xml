@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/ApplicationSettings">
+
+        <!--<ListPreference
+            android:entries="@array/LanguageEntrys"
+            android:entryValues="@array/SelectLanguage"
+            android:key="list_preference_1"
+            android:title="@string/language_Select" />-->
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="nightDayMode"
+            android:summaryOff="@string/NightModeOff"
+            android:summaryOn="@string/NightModeOn"
+            android:title="@string/EnableNightMode"></SwitchPreference>
+
+        <!--<ListPreference
+            android:dialogTitle="@string/MapThemes"
+            android:entries="@array/MapThemes"
+            android:key="mapTheme"
+            android:title="@string/ChangeMap"
+            app:entryValues="@array/EntryValues">
+        </ListPreference>-->
+
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory
+        android:title="@string/Alerts"
+        android:icon="@drawable/ic_baseline_notifications_24">
+
+        <SwitchPreference
+            android:title="@string/TurnOffNotifications"
+            android:key="notifications"
+            android:summaryOff="@string/NotificationsOff"
+            android:summaryOn="@string/NotificationsOn">
+        </SwitchPreference>
+    </PreferenceCategory>-->
+
+    <!--  <PreferenceCategory
+         android:title="@string/Profile"
+         android:icon="@drawable/ic_profile">
+
+         <EditTextPreference
+             android:title="@string/NameChange"
+             android:key="newName"
+             app:useSimpleSummaryProvider="true">
+         </EditTextPreference>
+     </PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:title="@string/omApplikationen"
+        android:icon="@drawable/ic_house">
+
+        <PreferenceScreen
+            android:title="@string/utvecklare"
+            android:summary="@string/grabbarnagrus" />
+        <DropDownPreference android:title="Version 1.0"></DropDownPreference>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

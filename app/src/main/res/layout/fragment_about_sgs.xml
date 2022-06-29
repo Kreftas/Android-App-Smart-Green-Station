@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/round_outline"
+            android:elevation="10dp">
+
+            <TextView
+                android:id="@+id/smart_green_station_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/oswald_bold"
+                android:padding="10dp"
+                android:text="@string/smart_green_n_t_t_t_t_t_t_t_t_t_t_tstation"
+                android:textColor="#415bb0"
+                android:textSize="30sp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/what_we_do_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/smart_green_station_title"
+                android:layout_marginStart="7dp"
+                android:fontFamily="@font/oswald_bold"
+                android:padding="10dp"
+                android:text="@string/vad_vi_g_r_och_vad_vi_bidrar_med"
+                android:textAllCaps="true"
+                android:textColor="#f8d20a"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/sgs_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/smart_green_station_title"
+                android:layout_alignParentEnd="true"
+                android:padding="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="0dp"
+                android:layout_toStartOf="@id/smart_green_station_title"
+                android:src="@drawable/sgs_logga_transparent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/round_outline"
+            android:elevation="10dp">
+
+
+            <TextView
+                android:id="@+id/beskrivning"
+                android:layout_width="210dp"
+                android:layout_height="105dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/oswald_bold"
+                android:padding="10dp"
+                android:text="@string/beskrivning_title"
+                android:textColor="#415bb0"
+                android:textSize="30sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/beskrivning"
+                android:layout_marginTop="-28dp"
+                android:layout_marginEnd="-159dp"
+                android:layout_toStartOf="@+id/beskrivning_bild"
+                android:fontFamily="@font/oswald"
+                android:gravity="center_vertical"
+                android:padding="25dp"
+                android:text="@string/beskrivning"
+                android:textColor="?attr/textFillColor"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/beskrivning_bild"
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="0dp"
+                android:layout_toStartOf="@+id/beskrivning"
+                android:src="@drawable/beskrivning" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/round_outline"
+            android:elevation="10dp">
+
+            <TextView
+                android:id="@+id/goal"
+                android:layout_width="210dp"
+                android:layout_height="105dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/oswald_bold"
+                android:padding="10dp"
+                android:text="@string/goal"
+                android:textColor="#415bb0"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/goal"
+                android:layout_marginTop="-28dp"
+                android:layout_marginEnd="-159dp"
+                android:layout_toStartOf="@+id/goal_bild"
+                android:fontFamily="@font/oswald"
+                android:gravity="center_vertical"
+                android:padding="25dp"
+                android:text="@string/mål"
+                android:textColor="?attr/textFillColor"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/goal_bild"
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="0dp"
+                android:layout_toStartOf="@+id/goal"
+
+                android:src="@drawable/goal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/round_outline"
+            android:elevation="10dp">
+
+
+            <TextView
+                android:id="@+id/vinster"
+                android:layout_width="210dp"
+                android:layout_height="105dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/oswald_bold"
+                android:padding="10dp"
+                android:text="@string/vinster_title"
+                android:textColor="#415bb0"
+                android:textSize="30sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vinster"
+                android:layout_marginTop="-28dp"
+                android:layout_marginEnd="-159dp"
+                android:layout_toStartOf="@+id/vinster_bild"
+                android:fontFamily="@font/oswald"
+                android:gravity="center_vertical"
+                android:padding="25dp"
+                android:text="@string/vinster"
+                android:textColor="?attr/textFillColor"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/vinster_bild"
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="0dp"
+                android:layout_toStartOf="@+id/vinster"
+
+                android:src="@drawable/vinster">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/round_outline"
+            android:elevation="10dp">
+
+
+            <TextView
+                android:id="@+id/framtiden"
+                android:layout_width="210dp"
+                android:layout_height="105dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/oswald_bold"
+                android:padding="10dp"
+                android:text="@string/framtiden_title"
+                android:textColor="#415bb0"
+                android:textSize="30sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/framtiden"
+                android:layout_marginTop="-28dp"
+                android:layout_marginEnd="-159dp"
+                android:layout_toStartOf="@+id/framtiden_bild"
+                android:fontFamily="@font/oswald"
+                android:gravity="center_vertical"
+                android:padding="25dp"
+                android:text="@string/framtiden"
+                android:textColor="?attr/textFillColor"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/framtiden_bild"
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="0dp"
+                android:layout_toStartOf="@+id/framtiden"
+
+                android:src="@drawable/goal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round_outline"
+            android:elevation="10dp">
+
+
+            <TextView
+                android:id="@+id/contact_us_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/oswald_bold"
+                android:padding="10dp"
+                android:text="@string/contact_us"
+                android:textColor="#415bb0"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/email_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact_us_text"
+                android:layout_alignParentStart="true"
+                android:layout_marginVertical="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-144dp"
+                android:layout_marginBottom="120dp"
+                android:padding="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/email_sgs"
+                android:textColor="?attr/textFillColor"
+                android:textSize="19sp"
+                app:drawableLeftCompat="@drawable/ic_email" />
+
+            <TextView
+                android:id="@+id/phone_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email_button"
+                android:layout_alignParentStart="true"
+                android:layout_marginVertical="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-144dp"
+                android:layout_marginBottom="120dp"
+                android:padding="10dp"
+                android:text="@string/phone_nbr_sgs"
+                android:textColor="?attr/textFillColor"
+                android:textSize="19sp"
+                app:drawableLeftCompat="@drawable/ic_phone" />
+
+
+            <TextView
+                android:id="@+id/address_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone_button"
+                android:layout_alignParentStart="true"
+                android:layout_marginVertical="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-144dp"
+                android:layout_marginBottom="120dp"
+                android:padding="10dp"
+                android:text="@string/address_sgs"
+                android:textColor="?attr/textFillColor"
+                android:textSize="19sp"
+                app:drawableLeftCompat="@drawable/ic_house" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

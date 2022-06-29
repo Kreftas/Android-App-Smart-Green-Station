@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_draw_open">Öppna</string>
+    <string name="naw_draw_close">Stäng</string>
+    <string name="title_activity_maps">Kartaktivitet</string>
+    <string name="testing">Testning</string>
+    <string name="about_us">Om Oss</string>
+    <string name="beskrivning">Smart Green Station utvecklar interaktiva och klimatsmarta busshållplatser och cykelparkeringar som på samma gång är en möjligheternas mötesplats. SGS vill göra dessa platser till en grön oas där vi kan mötas och vila en stund. Ladda batterierna – i dubbel bemärkelse. Samtidigt som cykelbatteriet laddas får människor en stunds återhämtning. Uppkopplade såklart. Alltid redo för nästa steg.</string>
+    <string name="mål">En investering i Smart Green Station resulterar i minskad elproduktion. Med långsiktiga planer för en beständig elförbrukning och klimatsmart utveckling. Smart Green Station bidrar till en bättre och mer hållbar stadsutveckling genom gröna mötesplatser – där uppkoppling och interaktion möter vila och reflektion. En grönare och bekvämare livsstil.</string>
+    <string name="vinster">"Hälsovinsterna med Smart green Station är flera. Genom grönare mötesplatser vill vi bidra till att förbättra folkhälsan och livskvaliteten för både nuvarande och kommande generationer. Den ekonomiska vinsten med Smart Green Station innebär att kommuner långsiktigt minskar sina kostnader. Viktiga resurser kan på så vis läggas på andra samhällsnyttiga ändamål. "</string>
+    <string name="framtiden">I grunden finns ren energi (solceller) och således minskad elförbrukning. Det bidrar till att utbilda människor i miljöfrågor. Smart Green Stations interaktiva system ger människor ett renare, hälsosammare och mer underhållande liv. Sensorer och IoT (Internet of Things) ger kommuner bättre och större möjligheter till lokal översikt av funktionalitet och statistik.</string>
+    <string name="vad_vi_g_r_och_vad_vi_bidrar_med">Vad vi gör och vad vi bidrar med</string>
+    <string name="beskrivning_title">Beskrivning</string>
+    <string name="goal">Mål</string>
+    <string name="vinster_title">Vinster</string>
+    <string name="framtiden_title">Framtiden</string>
+    <string name="our_website">Vår Websida</string>
+    <string name="temail">Email</string>
+    <string name="instagram">Instagram</string>
+    <string name="tyoutube">YouTube</string>
+    <string name="tlinkedin">LinkedIn</string>
+    <string name="phone">Telefon</string>
+    <string name="adress">Address</string>
+    <string name="follow_us_on_social_media">Följ oss på sociala medier</string>
+    <string name="map">Karta</string>
+    <string name="stations">Stationer</string>
+    <string name="friends">Vänner</string>
+    <string name="settings">Inställningar</string>
+    <string name="EnableNightMode">Slå på nattläg</string>
+    <string name="ChangeMap">Byt tema på kartan</string>
+    <string name="ApplicationSettings">Applikations Inställningar</string>
+    <string name="Alerts">Notifikationer</string>
+    <string name="TurnOffNotifications">Stäng av notifikationer</string>
+    <string name="Profile">Profil</string>
+    <string name="NameChange">Byt namn</string>
+    <string name="ImageChange">Byt bild</string>
+    <string name="MapThemes">Kart teman</string>
+    <string name="title_home">H</string>
+    <string name="title_dashboard">Instrumentbräda</string>
+    <string name="title_notifications">Notifikationer</string>
+    <string name="language_Select">Byt språk</string>
+    <string name="toggle_flash">Växla lampa</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="scanned_data">Skannad data</string>
+    <string name="NightModeOff">Natt läge är avslaget</string>
+    <string name="NightModeOn">Natt läge är påslaget</string>
+    <string name="NotificationsOff">Notifikationer är avslagna</string>
+    <string name="NotificationsOn">Notifikationer är påslagna</string>
+    <string name="webpage">Hemsida</string>
+    <string name="find_us_elsewhere">Hitta oss någon annanstans</string>
+    <string name="list_of_all_stations">Lista över alla stationer</string>
+    <string name="current_data">Insamlad data</string>
+    <string name="show_station_on_map">Visa på kartan</string>
+    <string name="station_name">Stationsnamn</string>
+    <string name="No_Internet3">Försöker ansluta...</string>
+    <string name="No_Internet2">Tryck OK för att komma till inställningar</string>
+    <string name="connecting">Ansluter</string>
+    <string name="QR_error1">Tryck på OK för att gå tillbaka till Karta</string>
+    <string name="QR_error">QR-koden är ogiltig, använd kartan</string>
+    <string name="camera_All_set">DU ÄR KLAR</string>
+    <string name="camera_button">PEKA MOT QR-KODEN</string>
+    <string name="camera_button_invalid_code">Ogiltig QR-KOD</string>
+    <string name="camera_button_go_to_station">GÅ TILL STATION</string>
+    <string name="camera_Scanner_started">Skannern har startat</string>
+    <string name="camera_Scanner_stopped">Skannern stoppad</string>
+    <string name="camera_Scanner_error">Skannerfel</string>
+    <string name="camera_Scanner_station_not_exists">STATION FINNS INTE</string>
+    <string name="No_Internet1">Se till att Wifi- eller mobildata är tillgängligt</string>
+    <string name="scanqr">Skanna QR-Kod</string>
+
+    <string-array name="SelectLanguage">
+        <item>Engelska</item>
+        <item>Svenska</item>
+        <item>Spanska</item>
+    </string-array>
+    <string-array name="LanguageEntrys">
+        <item>Engelska</item>
+        <item>Svenska</item>
+        <item>Spanska</item>
+    </string-array>
+    <string name="No_Connection">Ingen anslutning</string>
+    <string name="contact_us">Kontakta oss</string>
+    <string name="omApplikationen">Om applikationen</string>
+    <string name="utvecklare">Utvecklare</string>
+    <string name="our_stations">Våra stationer</string>
+    <string name="click_for_more_info">Klicka för mer information</string>
+    <string name="watch_video">Kolla video</string>
+    <string name="click_to_launch_settings_application">Klicka för att öppna inställningar</string>
+    <string name="pm2_5_text">Grafen visar densiteten av partiklar mindre än 2.5 mikrometer i luften över tid på stationen</string>
+    <string name="pm10_text">Grafen visar densiteten av partiklar mindre än 10 mikrometer i luften över tid på stationen</string>
+    <string name="light_text">Grafen visar mängden ljus mätt i Lux över tid på stationen</string>
+    <string name="temp_text">Grafen visar temperaturen över tid mätt i grader Celcius på stationen</string>
+
+
+</resources>
